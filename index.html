@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+
+</head>
+<body>
+    <!-- Top Section -->
+    <div class="intro py-3 bg-white text-center">
+    <div class="container">
+        <div>
+            <img src="logo.png" alt="UFC-logo" style="width: 30%; height: 30%;">
+        </div>
+        <h1 class="my-4" style="font-family: 'Bebas Neue', cursive; font-size: 72px;font-weight: 700; color: black;">
+          It's time!  
+        </h1>
+    </div>
+    </div>
+    <!-- Result Section -->
+    <div class="result py-4 d-none bg-light text-center">
+<div class="container lead">
+    <p style="font-weight: 700; font-size: 30px;">You have <span class="text-dark display-4 p-3" style="font-weight: 700;">0%</span> score!</p>
+</div>
+    </div>
+    <!-- Quiz Section -->
+    <div class="quiz py-4 bg-dark">
+        <div class="container">
+            <h1 class="my-5 text-white" style="font-family: 'Bebas Neue', cursive;">On with the questions...</h1>
+        <form class="quiz-form text-light">
+            <div class="my-5">
+                <p class="lead font-weight-normal">
+                   1) Who among the following fighters has the longest total fight time?
+                </p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label class="form-check-label">Frankie Edgar</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q1" value="B">
+                    <label class="form-check-label">Tony Ferguson</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q1" value="C">
+                    <label class="form-check-label">Stipe Miocic</label>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">
+                   2) Who has the longest lightweight win streak of all time?
+                </p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q2" value="A" checked>
+                    <label class="form-check-label">Khabib Nurmagomedov</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q2" value="B">
+                    <label class="form-check-label">Tony Ferguson</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q2" value="C">
+                    <label class="form-check-label">Justin Gaethje</label>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">
+                   3) Who among the following is the first fighter to win by twister submission?
+                </p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q3" value="A" checked>
+                    <label class="form-check-label">Chan Sung Jung</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q3" value="B">
+                    <label class="form-check-label">Bryce Mitchell</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q3" value="C">
+                    <label class="form-check-label">Conor Mcgregor</label>
+                </div>
+            </div>
+
+            <div class="my-5">
+                <p class="lead font-weight-normal">
+                  4)  Who has the longest active fighting streak?
+                </p>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q4" value="A" checked>
+                    <label class="form-check-label">Donald Cerone</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q4" value="B">
+                    <label class="form-check-label">Francis Ngannou</label>
+                </div>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q4" value="C">
+                    <label class="form-check-label">Charles Oliveria</label>
+                </div>
+            </div>
+            
+                <input type="submit" class="btn btn-light btn-lg mx-3">
+        </form>
+        </div>
+        <div class="text-center my-5">
+          <p style="color: crimson; font-family: 'Bebas Neue', cursive; letter-spacing: 1px;"> Done By B.Ashwin Raj, a hardcore MMA Fan</p> 
+        </div>
+    </div>
+ <script src="app.js"></script>   
+</body>
+</html>
